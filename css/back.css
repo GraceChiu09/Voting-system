@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+  text-decoration:none;
+  
+}
+
+body{
+  height: 100vh;
+  background-color: rgba(32,73,105,1);
+}
+
+
+nav{
+  height: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 20rem; 
+  margin-left: 50rem; 
+  margin-top: 1rem;
+}
+
+
+.container{
+  width: 160vh;
+  height: 80vh;
+  background: rgba(222,67,7,1);
+  margin: 0 auto;
+  margin-top: 5vh;
+  border-radius: 15px;
+  overflow: auto;
+}
+
+h1{
+  text-align: center;
+  line-height: 5rem;
+}
+
+form{
+  justify-content: center;
+}
+
+table{
+  margin: auto;
+  line-height: 1rem;
+}
+
+table td{
+  padding: 1rem;
+}
+
+.btns{
+  text-align: center;
+}
+
+h2{
+  color:black;
+  text-align: center;
+}
+
+
+footer{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+.btn{
+  margin-left: 5rem ;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:white;
+  padding: 0.25rem 0.75rem;
+  font-size: 1.1rem;
+  box-sizing: 0 0 10px black;
+  border: none;
+  outline: none;
+}
+
+
+ul{
+  margin: 1rem 5rem;
+}
+
+.list-items{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+  margin: 0.25rem 0;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+
+
+.edit{
+  display: inline-block;
+  padding: 3px 12px;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px black;
+  margin: 0 5px;
+}
+.edit:hover{
+  background: black;
+  color:white;
+}
+
+
+.del{
+  display: inline-block;
+  padding: 3px 12px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background: rgba(222,67,7,1);
+  box-shadow: 3px 3px 10px #aaa;
+  margin: 0 5px;
+}
+.del:hover{
+  background: black;
+  color: green;
+}
+
+
+
+.list{
+  width: 80%;
+}
+
+.list-header{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  
+}
+
+.list-header div{
+  width: calc(100% / 5);
+  background: rgba(32,73,105,1);
+  color: #ccc;
+}
+.list-items a div{
+  width: calc(100% / 5);
+  padding: 0.5rem 1rem;
+}
+
+.logbtn{
+  margin: 0 auto;
+  display: block;
+  width: 20%;
+  height: 6vh;
+  border: none;
+  background-color: rgba(32,73,105,1);
+  color: white;
+  background-size: 100%;
+  outline: none;
+  transition: .5s;
+  border-radius: 10px 10px;
+  margin-top: 15vh;
+}
+
+.vote-sub{
+  margin-top: 1rem;
+}
